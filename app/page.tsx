@@ -1,5 +1,6 @@
 'use client'
 
+// Main Dashboard Component for Personal Health Tracker
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { logGlucoseReading, getCombinationReport, logBloodPressureReading, getBloodPressureReport } from './actions';
